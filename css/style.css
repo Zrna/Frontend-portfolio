@@ -1,0 +1,144 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  max-width: 1200px;
+  background: #0e0e0e;
+  margin: 0 auto; }
+
+header {
+  padding: 50px 0px; }
+
+.navbar {
+  padding: 30px 30px 0 30px; }
+
+.navbar-light .navbar-nav .nav-link {
+  color: #6a6464; }
+
+.white-bg {
+  background: #ffffff; }
+
+.black-bg {
+  background: #000000; }
+
+.header-style {
+  border-left: 5px solid #000000;
+  border-right: 5px solid #000000;
+  padding: 40px 15px; }
+
+.header-title {
+  display: inline;
+  font-size: 100px;
+  line-height: 80px;
+  text-transform: uppercase; }
+
+.second-title {
+  display: inline;
+  text-transform: uppercase;
+  float: right;
+  transform: rotate(90deg); }
+
+.font-weight-600 {
+  font-weight: 600; }
+
+.parallax {
+  /* The image used */
+  background: #000000;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), black), url("../img/code.jpg");
+  /* Set a specific height */
+  min-height: 400px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.about-me-title, .education-title {
+  color: #ffffff;
+  padding-top: 50px; }
+
+.about-me-text, .education-text {
+  color: #ffffff;
+  padding: 30px; }
+
+.btn-contact {
+  display: block;
+  position: relative;
+  font-size: 20px;
+  background: #29f576;
+  color: #000000;
+  border-radius: 0px;
+  margin: 0 auto;
+  width: 150px;
+  padding: 15px; }
+
+.lets-work {
+  color: #ffffff;
+  font-size: 110px;
+  padding: 0;
+  margin-top: -55px;
+  margin-bottom: -45px; }
+
+@media screen and (max-width: 768px) {
+  .header-title {
+    font-size: 90px; } }
+
+@media screen and (max-width: 480px) {
+  .navbar {
+    padding: .5rem 1rem;
+    border-bottom: 1px solid #ffffff; }
+  .header-style {
+    padding: 100px 15px; }
+  .header-title {
+    font-size: 50px;
+    line-height: 40px; }
+  .second-title {
+    display: inline;
+    text-transform: uppercase;
+    transform: rotate(90deg);
+    margin-right: -90px;
+    margin-left: -32px; } }
+
+@media screen and (max-width: 320px) {
+  .header-title {
+    font-size: 35px; }
+  .lets-work {
+    font-size: 80px; } }
+
+/* Progress Bar start */
+.progress-bar {
+  width: 0;
+  animation: progress 1.5s ease-in-out forwards; }
+  .progress-bar .title {
+    opacity: 0;
+    animation: show 0.35s forwards ease-in-out 0.5s; }
+
+@keyframes progress {
+  from {
+    width: 0; }
+  to {
+    width: 100%; } }
+
+@keyframes show {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+.progress {
+  display: -ms-flexbox;
+  display: flex;
+  height: 1.25rem;
+  overflow: hidden;
+  font-size: .75rem;
+  border-radius: 0px; }
+
+.progress-bar {
+  background: #000000;
+  color: #29f576;
+  text-align: right;
+  padding-right: 10px;
+  font-size: 20px; }
+
+.progress-bar-green-box {
+  background: #29f576;
+  padding-right: 10px; }
+
+/* Progress Bar end */
