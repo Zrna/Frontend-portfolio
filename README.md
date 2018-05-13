@@ -3,7 +3,7 @@ FRONTEND DEVELOPER PORTFOLIO
 
 Author
 ----------------
-Luka Zrnic
+**Luka Zrnic**
 
 
 File List
@@ -17,7 +17,7 @@ File List
 
 ./node_modules
 
-gulpfule.js
+gulpfile.js
 
 index.html
 
