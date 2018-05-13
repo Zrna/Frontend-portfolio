@@ -26,7 +26,7 @@ README.md
 
 Description
 ---
-Frontend Developer portfolio created using HTML5, CSS3/SCSS, JavaScript/jQuery, Bootstrap 4.
+Frontend Developer portfolio created using HTML5, CSS3/SCSS, JavaScript/jQuery/Gulp, Bootstrap 4.
 
 Screenshot
 ---
